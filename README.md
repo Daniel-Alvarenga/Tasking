@@ -46,19 +46,19 @@ Follow these steps to get started with the Task Manager on your local machine.
 
 2. Clone the repository to your computer using the command:
 
-   ```bash
-     git clone https://github.com/your-username/task-manager.git
-   ```
+```bash
+ git clone https://github.com/your-username/task-manager.git
+```
 3. Navigate to the project directory:
-    ```bash
-      cd Tasking
-    ```
+```bash
+cd Tasking
+```
 
 4. Run the Project
     Run the task_manager.py script to start using the Task Manager:
-    ```bash
-        python __main__.py
-    ```
+```bash
+python __main__.py
+```
 
 The project will respond with a command prompt, and you can begin using the Task Manager's features.
 
@@ -70,17 +70,17 @@ If you're using PowerShell on Windows, you can create a custom function for exec
 
 2. Run the following command to create a custom function:
 
-    ```powershell
-       function Tasking {
-           python "path\to\Tasking\__main__.py" $args
-      }
-    ```
+```powershell
+function Tasking {
+python "path\to\Tasking\__main__.py" $args
+}
+```
 
 Replace `"path\to\Tasking\__main__.py"` with the actual path to your `__main__.py` file.
 
 3. Once the function is created, you can use it to execute the Task Manager with a simplified command. For example, to run a command like `tasking option`, you can simply type:
 
-    ```powershell
-    tasking option
-    ```
+```powershell
+tasking option
+```
 This custom function makes it more convenient to run the Task Manager from PowerShell on Windows.
