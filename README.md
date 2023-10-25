@@ -2,7 +2,7 @@
 Command-line Task Manager for user registration, task management, and user session tracking
 
 <div align="center">
-   <img src="https://github.com/Daniel-Alvarenga/Tasking/assets/128755697/a7a773a0-59b3-4fee-9648-ff5b1d966fea"/>
+   <img src="https://github.com/Daniel-Alvarenga/Tasking/assets/128755697/536a5bea-212a-4484-88f2-cdaac00a90c2"/>
 </div>
 
 The **Tasking** is a command-line Python project designed for user account management and task tracking. It provides functionalities for user registration, secure password hashing, login sessions, and task management. Users can create, view, mark as completed, and delete tasks associated with their account. This project stores user data, task details, and login history in a JSON file for persistence.
